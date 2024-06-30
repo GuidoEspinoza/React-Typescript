@@ -17,17 +17,17 @@ export const Usuario = () => {
     }
 
     return (
-        <div>
-            <h3>Usuario: useState</h3>
+        <div className="d-flex flex-column mt-5 border p-4 row-gap-4">
+            <h3>Usuario:</h3>
             <button
                 onClick={login}
-                className="btn btn-outline-primary">
+                className="btn btn-outline-primary w-25">
                 Login
             </button>
             {
                 (!user)
-                    ? <pre>No hay usuario</pre>
-                    : <pre>{JSON.stringify(user)}</pre>
+                    ? <p>No hay usuario</p>
+                    : <p>{JSON.stringify(user)}</p>
             }
         </div>
     )
