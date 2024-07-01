@@ -9,10 +9,10 @@ export const Counter = () => {
     }
 
     return (
-        <div className="d-flex flex-column mt-5 border p-4 row-gap-4">
+        <div className="d-flex flex-column mt-5 border p-4 row-gap-4 w-50">
             <h3>Counter:</h3>
             <span>Valor: {counter}</span>
-            <div className='mt-2'>
+            <div className='d-flex column-gap-4 mt-2'>
                 <button
                     className='btn btn-outline-primary mw-100'
                     onClick={() => incrementar()}>
