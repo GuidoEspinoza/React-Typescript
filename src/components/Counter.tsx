@@ -10,20 +10,20 @@ export const Counter = () => {
 
     return (
         <div className="d-flex flex-column mt-5 border p-4 row-gap-4 w-50">
-            <h3>Counter:</h3>
+            <h2>Counter:</h2>
             <span>Valor: {counter}</span>
-            <div className='d-flex column-gap-4 mt-2'>
+            
                 <button
-                    className='btn btn-outline-primary mw-100'
+                    className='btn btn-outline-primary w-25'
                     onClick={() => incrementar()}>
                     +1
                 </button>
                 <button
-                    className='btn btn-outline-primary mw-100'
+                    className='btn btn-outline-primary w-25'
                     onClick={() => incrementar(2)}>
                     +2
                 </button>
-            </div>
+            
             <button
                 className='btn btn-outline-primary mt-2 w-25'
                 onClick={() => setCounter(0)}>

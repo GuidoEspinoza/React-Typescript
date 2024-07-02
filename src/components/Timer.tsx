@@ -17,9 +17,9 @@ export const Timer = ({ milisegundos }: TimerArgs) => {
 
   return (
     <>
-      <h4>
+      <h2>
         Timer: <small>{segundos}</small>
-      </h4>
+      </h2>
     </>
   );
 };

@@ -18,7 +18,7 @@ export const Usuario = () => {
 
     return (
         <div className="d-flex flex-column mt-5 border p-4 row-gap-4 w-50">
-            <h3>Usuario:</h3>
+            <h2>Usuario:</h2>
             <button
                 onClick={login}
                 className="btn btn-outline-primary w-25">
