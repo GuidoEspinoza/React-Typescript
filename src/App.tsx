@@ -7,6 +7,7 @@ import { ContadorRed } from "./components/ContadorRed";
 
 import { Formulario } from "./components/Formulario";
 import { Formulario2 } from './components/Formulario2';
+import { Todo } from "./todo/Todo";
 
 function App() {
 
@@ -30,6 +31,10 @@ function App() {
         <h2>CustomHooks</h2>
         <Formulario />
         <Formulario2 />
+      </div>
+      <div className="d-flex flex-column border mt-5 p-4">
+        <h2>To-Do:</h2>
+        <Todo />
       </div>
     </>
   )
