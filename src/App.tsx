@@ -5,6 +5,9 @@ import { TimerPadre } from "./components/TimerPadre";
 
 import { ContadorRed } from "./components/ContadorRed";
 
+import { Formulario } from "./components/Formulario";
+import { Formulario2 } from './components/Formulario2';
+
 function App() {
 
   return (
@@ -22,6 +25,11 @@ function App() {
       <div className="d-flex flex-column border mt-5 p-4">
         <h2>useReducer</h2>
         <ContadorRed />
+      </div>
+      <div className="d-flex flex-column border mt-5 p-4">
+        <h2>CustomHooks</h2>
+        <Formulario />
+        <Formulario2 />
       </div>
     </>
   )
